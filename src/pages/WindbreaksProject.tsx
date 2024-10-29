@@ -1,6 +1,6 @@
 import React from 'react';
-import { Wind, Tree, Shield, Leaf } from 'lucide-react';
-import { SEOHelmet } from '../components/SEOHelmet';
+import { Wind, Trees, Shield, Leaf } from 'lucide-react';
+import { Helmet } from 'react-helmet';
 
 const features = [
   {
@@ -9,7 +9,7 @@ const features = [
     description: 'Strategic placement of trees and shrubs to reduce wind speed and protect agricultural lands.',
   },
   {
-    icon: Tree,
+    icon: Trees,
     title: 'Biodiversity Enhancement',
     description: 'Integration of various plant species to create diverse ecological corridors.',
   },
@@ -27,22 +27,22 @@ const features = [
 
 const projectImages = [
   {
-    url: 'https://i.imgur.com/t1IPaZn.jpeg',
+    url: 'https://i.imgur.com/t1IPaZn.jpg',
     caption: 'Windbreak Implementation',
     description: 'Strategic placement of trees creating effective wind protection zones',
   },
   {
-    url: 'https://i.imgur.com/btDJn8e.jpeg',
+    url: 'https://i.imgur.com/btDJn8e.jpg',
     caption: 'Apion Species Selection',
     description: 'Careful selection and cultivation of appropriate tree species',
   },
   {
-    url: 'https://i.imgur.com/ICxH5gJ.jpeg',
+    url: 'https://i.imgur.com/ICxH5gJ.jpg',
     caption: 'Growth Progress',
     description: 'Monitoring and documentation of windbreak development stages',
   },
   {
-    url: 'https://i.imgur.com/A3xXp67.jpeg',
+    url: 'https://i.imgur.com/A3xXp67.jpg',
     caption: 'Established Windbreaks',
     description: 'Mature windbreak system providing effective protection',
   },
@@ -51,17 +51,17 @@ const projectImages = [
 export default function WindbreaksProject() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <SEOHelmet 
-        title="Creating Windbreaks with Apions - IRIAS"
-        description="Implementation of innovative windbreak systems using Apion species for agricultural protection and environmental sustainability"
-      />
+      <Helmet>
+        <title>Creating Windbreaks with Apions - IRIAS</title>
+        <meta name="description" content="Implementation of innovative windbreak systems using Apion species for agricultural protection and environmental sustainability" />
+      </Helmet>
 
       {/* Hero Section */}
       <div className="relative bg-green-900 text-white py-24">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-green-900 to-green-800 mix-blend-multiply" />
           <img
-            src="https://i.imgur.com/t1IPaZn.jpeg"
+            src="https://i.imgur.com/t1IPaZn.jpg"
             alt="Windbreak System"
             className="w-full h-full object-cover"
           />
@@ -88,7 +88,7 @@ export default function WindbreaksProject() {
                 robust windbreak systems that protect agricultural lands and enhance local ecosystems.
               </p>
               <img
-                src="https://i.imgur.com/btDJn8e.jpeg"
+                src="https://i.imgur.com/btDJn8e.jpg"
                 alt="Apion Species"
                 className="rounded-lg shadow-md"
               />

@@ -1,4 +1,5 @@
-import { Menu, Search } from 'lucide-react';
+import React from 'react';
+import { Menu } from 'lucide-react';
 import { Button } from "../ui/button";
 
 const navItems = [
@@ -27,6 +28,7 @@ const navItems = [
       { title: 'All Projects', href: 'projects' },
       { title: 'Ecological Agriculture', href: 'ecological-agriculture' },
       { title: 'IOMF & APION Technology', href: 'iomf-project' },
+      { title: 'Creating Windbreaks with Apions', href: 'windbreaks-project' },
     ],
   },
   { title: 'PUBLICATIONS', href: 'publications' },
