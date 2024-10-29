@@ -1,3 +1,4 @@
+import React from 'react';
 import { Leaf, Sprout, TreePine, Droplets } from 'lucide-react';
 
 const features = [
@@ -20,37 +21,37 @@ const features = [
 
 const projectImages = [
   {
-    url: '/image1.jpg',
+    url: 'https://i.imgur.com/Pp7tI7a.jpeg',
     caption: 'Desert Rehabilitation',
     description: 'Innovative tree protection methods in desert conditions for sustainable growth',
   },
   {
-    url: '/expert-inspection.jpg',
+    url: 'https://i.imgur.com/dTdrqA5.jpeg',
     caption: 'Expert Field Inspection',
     description: 'Agricultural expert examining fruit tree development and growth progress',
   },
   {
-    url: '/field-assessment.jpg',
+    url: 'https://i.imgur.com/3fp7hgO.jpeg',
     caption: 'Field Assessment',
     description: 'Specialists conducting field assessments of agricultural development',
   },
   {
-    url: '/wheat-field-path.jpg',
+    url: 'https://i.imgur.com/fl0dH02.jpeg',
     caption: 'Sustainable Wheat Production',
     description: 'Large-scale sustainable wheat cultivation with natural border vegetation',
   },
   {
-    url: '/sugarcane-height.jpg',
+    url: 'https://i.imgur.com/WgsFjLp.jpeg',
     caption: 'Advanced Sugarcane Growth',
     description: 'Demonstration of exceptional sugarcane growth achievement',
   },
   {
-    url: '/hydroponic-facility.jpg',
+    url: 'https://i.imgur.com/dGnQDYJ.jpeg',
     caption: 'Modern Hydroponic Systems',
     description: 'Advanced hydroponic cultivation facility for sustainable urban farming',
   },
   {
-    url: '/crop-comparison.jpg',
+    url: 'https://i.imgur.com/6dH1YOe.jpeg',
     caption: 'Crop Performance Analysis',
     description: 'Comparative study showing the effectiveness of agricultural innovations',
   },
@@ -64,7 +65,7 @@ export default function EcologicalAgriculture() {
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 mix-blend-multiply" />
           <img
-            src="/wheat-field-path.jpg"
+            src="https://i.imgur.com/dTdrqA5.jpeg"
             alt="Sustainable Agriculture"
             className="w-full h-full object-cover"
           />
@@ -94,7 +95,7 @@ export default function EcologicalAgriculture() {
                 simultaneously working to rehabilitate degraded territories through innovative methods.
               </p>
               <img
-                src="/desert-trees.jpg"
+                src="https://i.imgur.com/Pp7tI7a.jpeg"
                 alt="Desert Rehabilitation"
                 className="rounded-lg shadow-md"
               />
@@ -145,7 +146,7 @@ export default function EcologicalAgriculture() {
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Hydroponic Innovation</h3>
               <img
-                src="/hydroponic-facility.jpg"
+                src="https://i.imgur.com/dGnQDYJ.jpeg"
                 alt="Hydroponic Facility"
                 className="rounded-lg shadow-md mb-4"
               />
@@ -157,7 +158,7 @@ export default function EcologicalAgriculture() {
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Field Research</h3>
               <img
-                src="/crop-comparison.jpg"
+                src="https://i.imgur.com/6dH1YOe.jpeg"
                 alt="Crop Comparison"
                 className="rounded-lg shadow-md mb-4"
               />
