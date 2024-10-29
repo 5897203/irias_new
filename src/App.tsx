@@ -10,6 +10,7 @@ import History from './pages/History';
 import Projects from './pages/Projects';
 import EcologicalAgriculture from './pages/EcologicalAgriculture';
 import IOMFProject from './pages/IOMFProject';
+import WindbreaksProject from './pages/WindbreaksProject';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,6 +30,8 @@ function App() {
         return <EcologicalAgriculture />;
       case 'iomf-project':
         return <IOMFProject />;
+      case 'windbreaks-project':
+        return <WindbreaksProject />;
       default:
         return (
           <>
