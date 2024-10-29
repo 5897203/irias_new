@@ -20,7 +20,7 @@ const features = [
 
 const projectImages = [
   {
-    url: '/desert-trees.jpg',
+    url: '/image1.jpg',
     caption: 'Desert Rehabilitation',
     description: 'Innovative tree protection methods in desert conditions for sustainable growth',
   },
