@@ -27,22 +27,22 @@ const features = [
 
 const projectImages = [
   {
-    url: 'https://i.imgur.com/t1IPaZn.jpg',
+    url: 'https://i.imgur.com/t1IPaZn.jpeg',
     caption: 'Windbreak Implementation',
     description: 'Strategic placement of trees creating effective wind protection zones',
   },
   {
-    url: 'https://i.imgur.com/btDJn8e.jpg',
+    url: 'https://i.imgur.com/btDJn8e.jpeg',
     caption: 'Apion Species Selection',
     description: 'Careful selection and cultivation of appropriate tree species',
   },
   {
-    url: 'https://i.imgur.com/ICxH5gJ.jpg',
+    url: 'https://i.imgur.com/ICxH5gJ.jpeg',
     caption: 'Growth Progress',
     description: 'Monitoring and documentation of windbreak development stages',
   },
   {
-    url: 'https://i.imgur.com/A3xXp67.jpg',
+    url: 'https://i.imgur.com/A3xXp67.jpeg',
     caption: 'Established Windbreaks',
     description: 'Mature windbreak system providing effective protection',
   },
@@ -61,7 +61,7 @@ export default function WindbreaksProject() {
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-green-900 to-green-800 mix-blend-multiply" />
           <img
-            src="https://i.imgur.com/t1IPaZn.jpg"
+            src="https://i.imgur.com/t1IPaZn.jpeg"
             alt="Windbreak System"
             className="w-full h-full object-cover"
           />
@@ -88,7 +88,7 @@ export default function WindbreaksProject() {
                 robust windbreak systems that protect agricultural lands and enhance local ecosystems.
               </p>
               <img
-                src="https://i.imgur.com/btDJn8e.jpg"
+                src="https://i.imgur.com/btDJn8e.jpeg"
                 alt="Apion Species"
                 className="rounded-lg shadow-md"
               />

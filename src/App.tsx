@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { HelmetProvider } from 'react-helmet-async';
 import { TopBar } from './components/layout/TopBar';
 import { MainNav } from './components/layout/MainNav';
 import { Hero } from './components/home/Hero';
@@ -43,18 +44,20 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <TopBar />
-      <MainNav 
-        isMenuOpen={isMenuOpen} 
-        setIsMenuOpen={setIsMenuOpen}
-        onNavigate={setCurrentPage}
-      />
-      <main>
-        {renderPage()}
-      </main>
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <div className="min-h-screen bg-background">
+        <TopBar />
+        <MainNav 
+          isMenuOpen={isMenuOpen} 
+          setIsMenuOpen={setIsMenuOpen}
+          onNavigate={setCurrentPage}
+        />
+        <main>
+          {renderPage()}
+        </main>
+        <Footer />
+      </div>
+    </HelmetProvider>
   );
 }
 
