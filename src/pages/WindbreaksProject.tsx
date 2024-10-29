@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wind, Trees, Shield, Leaf } from 'lucide-react';
-import { Helmet } from 'react-helmet';
+import { SEOHelmet } from '../components/SEOHelmet';
 
 const features = [
   {
@@ -51,10 +51,10 @@ const projectImages = [
 export default function WindbreaksProject() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Helmet>
-        <title>Creating Windbreaks with Apions - IRIAS</title>
-        <meta name="description" content="Implementation of innovative windbreak systems using Apion species for agricultural protection and environmental sustainability" />
-      </Helmet>
+      <SEOHelmet 
+        title="Creating Windbreaks with Apions - IRIAS"
+        description="Implementation of innovative windbreak systems using Apion species for agricultural protection and environmental sustainability"
+      />
 
       {/* Hero Section */}
       <div className="relative bg-green-900 text-white py-24">
